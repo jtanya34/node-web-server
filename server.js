@@ -44,7 +44,7 @@ hbs.registerHelper('screamIt',(text)=>{
 
 app.get('/',(req,res)=>{
 //res.send('<h1>Hello Express</h1>');
-res.render('Home.hbs',{
+res.render('home.hbs',{
 	pageTitle:'Home Page',
 	welcomeMessage:'Welcome to my website',
 
