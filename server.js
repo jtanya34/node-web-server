@@ -61,6 +61,13 @@ currentYear: new Date().getFullYear()
 });
 
 
+app.get('/projects',(req,res)=>{
+ 	res.render('projects.hbs',{
+ 		pageTitle:'Projects'
+ 	});
+ });
+
+
 app.get('/bad',(req,res)=>{
 res.send({
 	errormessage:'Unable to handle data'
